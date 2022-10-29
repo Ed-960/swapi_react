@@ -1,0 +1,69 @@
+.section {
+   width: 950px;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav_item {
+   padding: 5px;
+   text-align: center;
+   background-color: #2B3133;
+   width: 300px;
+   color: #D8DCDD;
+}
+
+.peopleItem {
+   background-color: #BEC0C2;
+   color: #555A5D;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-top: 10px;
+   border-bottom: 1px solid #949596;
+   height: 40px;
+}
+
+.peopleItem:hover {
+   background-color: #949596;
+   cursor: pointer;
+}
+
+/* pagination */
+.pagination {
+   margin-top: 25px;
+   background-color: #2B3133;
+   position: absolute;
+}
+
+.pagination button {
+   background-color: #606364;
+   color: #B2B4B6;
+   width: 35px;
+   height: 35px;
+   padding: 0px;
+   border: 1px solid #D8DCDD;
+}
+
+.pagination button:hover {
+   background-color: #0159CA;
+}
+
+.btnBack {
+   margin: 10px;
+   background-color: #606364;
+   color: #D8DCDD;
+   width: 100px;
+   height: 30px;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+}
+
+.btnBack:hover {
+   width: 103px;
+   height: 33px;
+   color: red;
+   background-color: #0159CA;
+}
